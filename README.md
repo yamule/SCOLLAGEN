@@ -3,6 +3,8 @@
 
 Simple Javascript-base collada exporter
 which enables you to generate collada file with modern web-browser.
+Currently, this is just for exporting models. 
+You can only export geometries with flat and single color material. 
 
 Pass an array of hashes() to SCOLLAGEN.generateFromHash
 Content of collada will be returned as string.
@@ -22,8 +24,8 @@ hash structure like
 If you made models with [three.js](https://github.com/mrdoob/three.js) by mrdoob,
 and you added objects directly under the scene object,
 
-1. Make an element whose id is "dldiv" in your HTML document.
-2. Define functions 'makeCollada' and 'makeDLLink' as follows.
+i. Make an element whose id is "dldiv" in your HTML document.  
+ii. Define functions 'makeCollada' and 'makeDLLink' as follows.  
 
 <pre>
 function makeCollada(){
@@ -97,6 +99,6 @@ function makeDLLink(dat) {
 };
 </pre>
 
-3. Call makeCollada.
+iii. Call makeCollada.
 
 Then a link will be appear in the element you made in step 1.
