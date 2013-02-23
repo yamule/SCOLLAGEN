@@ -8,12 +8,13 @@ Pass an array of hashes() to SCOLLAGEN.generateFromHash
 Content of collada will be returned as string.
 
 hash structure like
+
                 hash ={
-                    vertex:[],//position of vertices. Please extend all coordinates in one dimension. x,y,z,x,y,z,x,y...
+                    vertex:[],//position of vertices. Please extend all coordinates in one dimension. x,y,z,x,y,z,...
                     vcount:[],//How many vertices are used in the face
                     vindex:[],//Which vertices are used to construct the face
-                    norms:[],//<optional> norm of each faces Please extend all coordinates in one dimension. x,y,z,x,y,z,x,y...
-                    color:[]//<optional> One dimensional array represents, r,g,b.  if this is not defined, 255,0,0 will be used.
+                    norms:[],//<optional> norm of each faces Please extend all coordinates in one dimension. x,y,z,x,y,z,...
+                    color:[]//<optional> One dimensional array represents, r,g,b. If ommitted, 255,0,0 will be used.
                 }
 
 
