@@ -101,4 +101,4 @@ function makeDLLink(dat) {
 
 iii. Call makeCollada.
 
-Then a link will be appear in the element you made in step 1.
+Then a link will appear in the element you made in step 1.
