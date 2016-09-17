@@ -29,7 +29,7 @@ ii. Define functions 'makeCollada' and 'makeDLLink' as follows.
 
 <pre>
 function makeCollada(){
-	var ar = scene.__objects;
+	var ar = scene.children;
 	var glen = ar.length;
 	var geoms = new Array();
 	//console.log(ar.length);
